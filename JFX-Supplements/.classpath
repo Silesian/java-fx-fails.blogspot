@@ -32,5 +32,6 @@
 			<attribute name="maven.pomderived" value="true"/>
 		</attributes>
 	</classpathentry>
+	<classpathentry kind="lib" path="/home/home/jdk1.7.0_40/jre/lib/jfxrt.jar" sourcepath="/home/home/java/rt-e71070b0e0c0/javafx-ui-controls/src"/>
 	<classpathentry kind="output" path="target/classes"/>
 </classpath>
