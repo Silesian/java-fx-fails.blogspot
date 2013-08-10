@@ -1,4 +1,4 @@
-package com.jfx.fails.control;
+package de.jalpha.jfx.fails.menubar.quickfix;
 
 import javafx.scene.control.MenuBar;
 
@@ -6,7 +6,7 @@ public class QuickFixedMenuBar extends MenuBar {
 
 	public QuickFixedMenuBar() {
 		super();
-		setStyle("-fx-skin: \"com.jfx.fails.control.skin.QuickFixedMenuBarSkin\";");
+		setStyle("-fx-skin: \"" + QuickFixedMenuBarSkin.class.getName() + "\";");
 	}
 
 }

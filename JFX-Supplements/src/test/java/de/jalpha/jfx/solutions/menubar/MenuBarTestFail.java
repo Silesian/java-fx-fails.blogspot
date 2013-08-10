@@ -1,15 +1,14 @@
-package de.jalpha.jfx.menu;
+package de.jalpha.jfx.solutions.menubar;
 
 import javafx.application.Application;
 import javafx.scene.Group;
 import javafx.scene.Scene;
 import javafx.scene.control.Menu;
+import javafx.scene.control.MenuBar;
 import javafx.scene.paint.Color;
 import javafx.stage.Stage;
 
-import com.jfx.fails.control.FMenuBar;
-
-public class MenuTest extends Application {
+public class MenuBarTestFail extends Application {
 	public static void main(String[] args) {
 		launch(args);
 	}
@@ -20,7 +19,7 @@ public class MenuTest extends Application {
 		Group root = new Group();
 		Scene scene = new Scene(root, 400, 300, Color.WHITE);
 
-		FMenuBar menuBar = new FMenuBar();
+		MenuBar menuBar = new MenuBar();
 
 		// --- Menu File
 		Menu menuFile = new Menu("File");

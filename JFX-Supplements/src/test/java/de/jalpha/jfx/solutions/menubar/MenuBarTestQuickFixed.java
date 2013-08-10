@@ -1,4 +1,4 @@
-package de.jalpha.jfx.menu;
+package de.jalpha.jfx.solutions.menubar;
 
 import javafx.application.Application;
 import javafx.scene.Group;
@@ -6,10 +6,9 @@ import javafx.scene.Scene;
 import javafx.scene.control.Menu;
 import javafx.scene.paint.Color;
 import javafx.stage.Stage;
+import de.jalpha.jfx.fails.menubar.quickfix.QuickFixedMenuBar;
 
-import com.jfx.fails.control.QuickFixedMenuBar;
-
-public class MenuTestQuickFix extends Application {
+public class MenuBarTestQuickFixed extends Application {
 	public static void main(String[] args) {
 		launch(args);
 	}

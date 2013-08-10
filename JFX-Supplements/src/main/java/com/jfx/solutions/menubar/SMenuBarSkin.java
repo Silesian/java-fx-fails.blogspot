@@ -16,7 +16,7 @@
  *  along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
 
-package com.jfx.fails.control.skin;
+package com.jfx.solutions.menubar;
 
 import javafx.beans.value.ChangeListener;
 import javafx.beans.value.ObservableValue;
@@ -27,12 +27,12 @@ import javafx.scene.control.MenuItem;
 
 import com.sun.javafx.scene.control.skin.MenuBarSkin;
 
-public class FMenuBarSkin extends MenuBarSkin {
+public class SMenuBarSkin extends MenuBarSkin {
 
 	private final Menu minSizeMenu = new Menu(">");
 	private double lastComputePrefWidth;
 
-	public FMenuBarSkin(final MenuBar control) {
+	public SMenuBarSkin(final MenuBar control) {
 		super(control);
 
 		control.widthProperty().addListener(new ChangeListener<Number>() {

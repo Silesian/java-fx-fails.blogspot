@@ -1,4 +1,4 @@
-package com.jfx.fails.control.skin;
+package de.jalpha.jfx.fails.menubar.quickfix;
 
 import javafx.scene.control.MenuBar;
 

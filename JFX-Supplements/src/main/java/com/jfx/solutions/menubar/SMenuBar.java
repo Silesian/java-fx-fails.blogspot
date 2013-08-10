@@ -16,15 +16,15 @@
  *  along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
 
-package com.jfx.fails.control;
+package com.jfx.solutions.menubar;
 
 import javafx.scene.control.MenuBar;
 
-public class FMenuBar extends MenuBar {
+public class SMenuBar extends MenuBar {
 
-	public FMenuBar() {
+	public SMenuBar() {
 		super();
-		setStyle("-fx-skin: \"com.jfx.fails.control.skin.FMenuBarSkin\";");
+		setStyle("-fx-skin: \"" + SMenuBarSkin.class.getName() + "\";");
 	}
 
 }
