@@ -33,9 +33,9 @@ public class MenuBarTestSolution extends Application {
 
 	@Override
 	public void start(Stage primaryStage) {
-		primaryStage.setTitle("MenuBar Original");
+		primaryStage.setTitle("MenuBar Solution");
 		Group root = new Group();
-		Scene scene = new Scene(root, 400, 300, Color.WHITE);
+		Scene scene = new Scene(root, 400, 70, Color.WHITE);
 
 		SMenuBar menuBar = new SMenuBar();
 

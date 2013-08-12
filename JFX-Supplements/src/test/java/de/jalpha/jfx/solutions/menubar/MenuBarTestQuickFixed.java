@@ -32,9 +32,9 @@ public class MenuBarTestQuickFixed extends Application {
 
 	@Override
 	public void start(Stage primaryStage) {
-		primaryStage.setTitle("MenuBar Original");
+		primaryStage.setTitle("MenuBar Quick Fix");
 		Group root = new Group();
-		Scene scene = new Scene(root, 400, 300, Color.WHITE);
+		Scene scene = new Scene(root, 400, 70, Color.WHITE);
 
 		QuickFixedMenuBar menuBar = new QuickFixedMenuBar();
 

@@ -34,7 +34,7 @@ public class MenuBarTestFail extends Application {
 	public void start(Stage primaryStage) {
 		primaryStage.setTitle("MenuBar Original");
 		Group root = new Group();
-		Scene scene = new Scene(root, 400, 300, Color.WHITE);
+		Scene scene = new Scene(root, 400, 70, Color.WHITE);
 
 		MenuBar menuBar = new MenuBar();
 
